@@ -1,7 +1,7 @@
 <?php
      $pdo = new PDO ("sqlite:estoque.db");
 
-     $queryCriaTabelaCategorias = "CREATE TABLE IF NOT EXISTS catrgorias (
+     $queryCriaTabelaCategorias = "CREATE TABLE IF NOT EXISTS categorias (
           id	INTEGER NOT NULL,
           nome	TEXT NOT NULL,
           PRIMARY KEY(id AUTOINCREMENT)
